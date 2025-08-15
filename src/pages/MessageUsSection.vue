@@ -37,16 +37,21 @@
 import { handleFormSubmit } from '../js/script'
 
 export default {
-  props: ['id'],
+  props: ['id', 'displayName'], 
   data() {
     return {
-      form: { name: '', email: '', phone: '', message: '' },
+      form: {
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+      },
       submittedData: null
     }
   },
   methods: {
     handleSubmit() {
-      const result = handleFormSubmit(this.form, name => this.$emit('update-display-name', name))
+      const result = handleFormSubmit(this.form)
       if (result) {
         this.submittedData = result
         this.form = { name: '', email: '', phone: '', message: '' }
@@ -55,3 +60,4 @@ export default {
   }
 }
 </script>
+

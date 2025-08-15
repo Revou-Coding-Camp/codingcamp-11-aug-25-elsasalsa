@@ -12,9 +12,11 @@ export function validateForm(form) {
   return true;
 }
 
-// helper untuk submit form dari Vue
 export function handleFormSubmit(form, updateDisplayName) {
   if (!validateForm(form)) return null;
-  updateDisplayName(form.name);
+  if (typeof updateDisplayName === 'function') {
+    updateDisplayName(form.name); 
+  }
   return { ...form }; 
 }
+

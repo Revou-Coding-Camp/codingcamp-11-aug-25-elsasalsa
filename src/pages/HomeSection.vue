@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="text-center mt-16 mb-32 py-16 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-md mx-6 md:mx-20">
+    <div class="text-center mt-20 mb-40 py-16 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-md mx-6 md:mx-20">
       <h1 class="text-3xl md:text-5xl font-bold mb-4">
         {{ displayName && displayName !== 'Name' ? `Hi ${displayName}!` : "Hi there!" }}
       </h1>

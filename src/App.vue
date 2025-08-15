@@ -74,6 +74,18 @@ export default {
     updateDisplayName(name) {
       this.displayName = name
       localStorage.setItem('displayName', name)
+      localStorage.setItem('nameSavedAt', Date.now())
+    },
+    mounted() {
+      const savedName = localStorage.getItem('displayName')
+      const savedAt = localStorage.getItem('nameSavedAt')
+      const oneDay = 24 * 60 * 60 * 1000 // 1 hari
+
+      if (!savedName || !savedAt || (Date.now() - savedAt) > oneDay) {
+        this.showNameModal = true
+      } else {
+        this.displayName = savedName
+      }
     },
     submitName() {
       if (this.tempName.trim()) {

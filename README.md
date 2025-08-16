@@ -39,7 +39,7 @@ Edvanta is a modern web platform designed to help you boost your career through 
 
 3. **Run the development server:**
    ```bash
-   npm install
+   npm run dev
 
 4. **Open your browser:**
    

@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-50">
-    <!-- Modal untuk input nama -->
+    <!-- Modal -->
     <div
       v-if="showNameModal"
       class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
@@ -28,7 +28,16 @@
     <!-- Navbar -->
     <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg fixed w-full z-10">
       <div class="max-w-screen-xl mx-auto flex justify-between items-center py-4 px-4 md:px-12">
-        <a href="/" class="text-lg font-bold tracking-wide">SkillBoost</a>
+        <a href="./" class="flex items-center">
+          <img
+            :src="edvantaLogo"
+            alt="Edvanta"
+            class="h-10 w-10 md:h-11 md:w-11 rounded-full bg-white ring-2 ring-white/80 shadow-lg object-contain p-1"
+          />
+          <span class="sr-only">Edvanta</span>
+        </a>
+
+
         <nav class="flex flex-wrap space-x-4 md:space-x-12">
           <a href="#home" class="hover:text-yellow-300 transition">Home</a>
           <a href="#profile" class="hover:text-yellow-300 transition">Our Profile</a>
@@ -36,6 +45,7 @@
         </nav>
       </div>
     </header>
+
 
     <!-- Content -->
     <main class="flex-1 pt-28">
@@ -46,7 +56,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white text-center py-3 text-sm">
-      © {{ new Date().getFullYear() }} SkillBoost. All rights reserved.
+      © {{ new Date().getFullYear() }} Edvanta. All rights reserved.
     </footer>
   </div>
 </template>
@@ -55,11 +65,13 @@
 import HomeSection from './pages/HomeSection.vue'
 import ProfileSection from './pages/ProfileSection.vue'
 import MessageUsSection from './pages/MessageUsSection.vue'
+import edvantaLogo from './assets/edvanta-logo.png'
 
 export default {
   components: { HomeSection, ProfileSection, MessageUsSection },
   data() {
     return {
+      edvantaLogo,
       displayName: localStorage.getItem('displayName') || 'Name',
       showNameModal: false,
       tempName: ''

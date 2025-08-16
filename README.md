@@ -1,8 +1,8 @@
-# 🚀 SkillBoost
+# 🚀 Edvanta
 
 **Level up your skills, one click at a time!** 🎯
 
-SkillBoost is a modern web platform designed to help you **boost your career** through interactive learning programs. Get personalized greetings, explore our training programs, and connect with us easily! 💡
+Edvanta is a modern web platform designed to help you boost your career through interactive learning programs. Get personalized greetings, explore our training programs, and connect with us easily! 💡
 
 ---
 
@@ -30,8 +30,8 @@ SkillBoost is a modern web platform designed to help you **boost your career** t
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/yourusername/skillboost.git
-   cd skillboost
+    git clone https://github.com/Revou-Coding-Camp/codingcamp-11-aug-25-elsasalsa.git
+    cd codingcamp-11-aug-25-elsasalsa
    
 2. **Install dependencies:**
    ```bash
@@ -49,13 +49,12 @@ SkillBoost is a modern web platform designed to help you **boost your career** t
 
 ## 📁 Project Structure
 
-    skillboost/
+    edvanta/
     ├─ public/           # Static assets (favicons, index.html, etc.)
     ├─ src/
     │  ├─ assets/        # Images, icons, and other media files
-    │  ├─ components/    # Vue components (HomeSection, ContactSection, etc.)
     │  ├─ js/            # JS utilities (form handling)
-    │  ├─ routes/        # Vue router setup and route definitions
+    │  ├─ pages/         # Vue components for each section
     │  ├─ App.vue
     │  └─ main.js
     ├─ package.json

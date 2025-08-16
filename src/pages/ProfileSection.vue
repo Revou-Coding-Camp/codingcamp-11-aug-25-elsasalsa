@@ -2,7 +2,7 @@
   <section :id="id" class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 text-gray-700 py-12 px-8">
     
     <div class="text-center max-w-3xl">
-      <h2 class="text-4xl font-bold mb-4 text-gray-800">About SkillBoost</h2>
+      <h2 class="text-4xl font-bold mb-4 text-gray-800">About Edvanta</h2>
       <p class="text-lg text-gray-600">
         We are a team of passionate educators and trainers focused on helping individuals and businesses master digital skills.
       </p>
@@ -14,8 +14,9 @@
         <div class="flex items-center space-x-3">
           <h3 class="text-2xl font-semibold text-gray-800">Vision</h3>
         </div>
-        <p class="text-gray-600">
-          To become the leading platform for practical, hands-on digital skills training that <span class="text-blue-600 font-semibold">empowers careers worldwide</span>.
+        <p class="text-gray-600 leading-relaxed">
+          To be the leading platform for <span class="text-blue-600 font-semibold">practical digital skills training</span> 
+          that <span class="text-blue-600 font-semibold">empowers people worldwide</span> to grow, innovate, and succeed in the modern era.
         </p>
       </div>
 

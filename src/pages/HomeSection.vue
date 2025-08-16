@@ -6,8 +6,8 @@
       </h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto">
         {{ displayName && displayName !== 'Name' 
-          ? "Welcome to SkillBoost! We're excited to help you level up your skills." 
-          : "Welcome to SkillBoost! Discover our training programs and transform your career." }}
+          ? "Welcome to Edvanta! We're excited to help you level up your skills." 
+          : "Welcome to Edvanta! Discover our training programs and transform your career." }}
       </p>
       <div class="mt-10 flex justify-center">
         <a href="#profile" class="bg-white text-blue-600 font-semibold px-4 md:px-6 py-2 rounded-full shadow hover:bg-gray-100 transition">

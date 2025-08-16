@@ -56,7 +56,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white text-center py-3 text-sm">
-      © {{ new Date().getFullYear() }} Edvanta. All rights reserved.
+      © {{ new Date().getFullYear() }} Elsa Salsa Bila. All rights reserved.
     </footer>
   </div>
 </template>

@@ -69,17 +69,3 @@ Edvanta is a modern web platform designed to help you boost your career through 
     Use the Message Us form to send messages; submissions appear live!
 
     Explore our training programs and transform your career 🚀.
-
----
-
-## 🤝 Contributing
-
-    We welcome contributions!
-
-    🐞 Bug fixes
-
-    💡 New features
-
-    🎨 UI improvements
-
-    Please open a pull request or issue.
